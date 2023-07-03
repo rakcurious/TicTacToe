@@ -2,7 +2,7 @@ import o from "./assets/icon_o.svg";
 import x from "./assets/icon_x.svg";
 import e from "./assets/icon_edit.svg";
 import { useState } from "react";
-import thumbnail from "./assets/tictactoefinal.png";
+import thumbnail from "./assets/ticthumbnail.png";
 
 function TicTacToe() {
   const [tic, setTic] = useState([e, e, e, e, e, e, e, e, e]);
