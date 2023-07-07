@@ -124,12 +124,12 @@ function TicTacToe() {
             </div>
           )}
         </div>
-        <div className="flex justify-around items-center w-80 lg:w-120 mt-2 lg:mt-1 lg:p-0 p-2 flex-wrap lg:flex-nowrap">
-          <div className="flex justify-around items-center w-80">
-            <div className="flex flex-col justify-center items-center">
+        <div className="flex justify-center items-center w-80 lg:w-120 mt-2 lg:p-0 p-2 flex-wrap lg:flex-nowrap">
+          <div className="flex justify-around items-center w-60 lg:-translate-x-4">
+            {/* <div className="flex flex-col justify-center items-center">
               <p className="text-2xl font-bold font-mono">Player: </p>
               <p className="text-2xl font-bold font-mono">Score : </p>
-            </div>
+            </div> */}
             <div className="flex flex-col justify-center items-center">
               <p className="text-2xl font-bold font-mono">X </p>
               <p className="text-2xl font-bold font-mono">{score[0]}</p>
@@ -148,7 +148,7 @@ function TicTacToe() {
             onClick={() => {
               setScore([0, 0, 0]), newGame();
             }}
-            className="bg-purple-600 hover:bg-purple-700 h-12  w-32 hover:rounded-xl text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold mt-2 lg:m-0 rounded-full"
+            className="bg-purple-600 hover:bg-purple-700 h-12 w-40 hover:rounded-xl text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold mt-2 mr-2 lg:m-0 rounded-full"
           >
             Reset
           </button>
