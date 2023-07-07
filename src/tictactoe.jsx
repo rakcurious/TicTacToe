@@ -144,7 +144,7 @@ function TicTacToe() {
             onClick={() => {
               setScore([0, 0, 0]), newGame();
             }}
-            className="bg-purple-600 hover:bg-purple-700 h-12 w-40 hover:rounded-xl text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold mt-2 mr-2 lg:m-0 rounded-full"
+            className="bg-purple-500 hover:bg-purple-600 h-12 w-40 hover:rounded-xl text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold mt-2 mr-2 lg:m-0 rounded-full"
           >
             Reset
           </button>
