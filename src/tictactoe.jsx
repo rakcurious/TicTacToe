@@ -126,10 +126,6 @@ function TicTacToe() {
         </div>
         <div className="flex justify-center items-center w-80 lg:w-120 mt-2 lg:p-0 p-2 flex-wrap lg:flex-nowrap">
           <div className="flex justify-around items-center w-60 lg:-translate-x-4">
-            {/* <div className="flex flex-col justify-center items-center">
-              <p className="text-2xl font-bold font-mono">Player: </p>
-              <p className="text-2xl font-bold font-mono">Score : </p>
-            </div> */}
             <div className="flex flex-col justify-center items-center">
               <p className="text-2xl font-bold font-mono">X </p>
               <p className="text-2xl font-bold font-mono">{score[0]}</p>
