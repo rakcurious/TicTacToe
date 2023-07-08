@@ -76,8 +76,8 @@ function TicTacToe() {
             turn == x || turn == o
               ? "text-black-700 text-2xl lg:text-3xl text-center m-4 font-bold font-mono"
               : turn == "Game Tied!"
-              ? "text-purple-800  text-2xl lg:text-3xl text-center m-4 font-mono font-bold"
-              : "text-green-700 text-2xl lg:text-3xl text-center m-4 font-mono font-bold"
+              ? "text-fuchsia-800  text-2xl lg:text-3xl text-center m-4 font-mono font-bold"
+              : "text-fuchsia-800 text-2xl lg:text-3xl text-center m-4 font-mono font-bold"
           }
         >
           {turn == x ? "X's turn" : turn == o ? "O's turn" : `${turn}`}
@@ -86,8 +86,8 @@ function TicTacToe() {
           onClick={() => newGame()}
           className={
             turn == x || turn == o
-              ? "bg-purple-500 hover:bg-purple-600 h-12  w-40 hover:rounded-xl m-4 text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold pt-1 rounded-full pb-1"
-              : "bg-purple-500 hover:bg-purple-600 h-12  w-40 hover:rounded-xl m-4 text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold pt-1 rounded-full animate-bounce"
+              ? "bg-fuchsia-600 hover:bg-fuchsia-700 h-12  w-40 hover:rounded-xl m-4 text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold pt-1 rounded-full pb-1"
+              : "bg-fuchsia-600 hover:bg-fuchsia-700 h-12  w-40 hover:rounded-xl m-4 text-xl transition ease-in-out hover:-translate-y-0.5  duration-500 font-mono font-bold pt-1 rounded-full animate-bounce"
           }
         >
           New Game
