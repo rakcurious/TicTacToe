@@ -105,11 +105,11 @@ function TicTacToe() {
               }
               className="bg-yellow-400 shadow lg:w-24 h-1/5 w-1/5 lg:h-24 rounded-xl my-4 mx-4"
             >
-              <img
-                className="lg:h-16 lg:w-16 h-3/4 w-3/4 m-2 lg:m-4"
+             {tic[index] != e && <img
+                className="lg:h-16 lg:w-16 h-3/4 w-3/4 m-2 lg:m-4 scale-up-center"
                 src={state}
                 alt="icon"
-              />
+              />}
             </div>
           ))}
           {(turn == "Winner: O" || turn == "Winner: X") && (
