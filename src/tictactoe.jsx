@@ -65,7 +65,7 @@ function TicTacToe() {
   }
 
   return (
-    <div className="h-screen w-screen bg-gradient-to-b from-purple-500/60 to-purple-500">
+    <div className="min-h-screen h-auto w-screen bg-gradient-to-b from-purple-500/60 to-purple-500">
       <h1 className="text-black text-4xl  text-center p-10 lg:p-3 font-bold font-mono ">
         Tic Tac Toe
       </h1>
